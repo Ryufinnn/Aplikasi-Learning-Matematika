@@ -1,0 +1,9 @@
+<?php
+session_start();
+if($_SESSION['id']){
+	header("location:siswa.php");
+	}
+	else{
+	header("location:../login.php");
+	}
+?>

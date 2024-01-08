@@ -1,0 +1,106 @@
+.menu li{
+float:left;
+}
+.menu li a{
+padding:5px 10px;
+background-color:#ccff00;
+color:#000000;
+border-radius:15px;
+margin-right:5px;
+text-decoration:none;
+transition:0.2s;
+}
+.menu li a:hover{
+background-color:#000000;
+color:#ccff00;
+}
+
+table{
+border-collapse:collapse;
+}
+th,td{
+height:30px;
+width:30px;
+}
+table img{
+height:30px;
+width:30px;
+}
+.box{
+border:2px solid #ccff00;
+}
+ul{
+padding:0;
+margin:0;
+}
+ul,li{
+list-style:none;
+}
+.detail-unsur td,.detail-unsur th{
+padding:5px;
+}
+.detail-unsur th{
+text-align:left;
+background-color:#e1e1e1;
+}
+.detail-unsur td{
+background-color:#f4f4f4;
+}
+.dropmenu {
+    background: #616161;
+    height: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+.dropmenu li {
+    border-right: solid 1px white;
+    float: right;
+    height: 30px;
+}
+.dropmenu li a {
+    color: #fff;
+    display: block;
+    font: 12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+.dropmenu li:hover { background: #778899; position: relative; }
+.dropmenu li:hover a { text-decoration: underline; }
+.dropmenu li:hover ul {
+    background-color: #99cc00;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: none; height: 18px; }
+.dropmenu li:hover ul li a {
+    background-color: #778899;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: silver;
+    border: solid 1px #444;
+    color: #000;
+    height: 18px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
